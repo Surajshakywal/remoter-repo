@@ -1,0 +1,5 @@
+[Added Associations]
+text/plain=gedit.desktop;mousepad.desktop;
+
+[Default Applications]
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_opt_eclipse_.desktop

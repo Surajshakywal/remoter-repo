@@ -1,0 +1,14 @@
+Application:
+1. Git
+2. Maven : /opt/maven
+3. Tomcat: /opt/tomcat, port : 8090
+4. Docker
+5. Jenkins , port : 8080
+6. Kubernetes(Master)
+7. Puppet(Master)
+8. JDK 1.8
+9. Ansible
+10.Python 3.8
+
+11.Nagios username: nagiosadmin
+   Nagios password: #UID0044

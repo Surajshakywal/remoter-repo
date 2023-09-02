@@ -1,0 +1,1014 @@
+Xsession: X session started for ubuntu at Sat May 23 09:45:45 UTC 2020
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:11.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:11.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+xfce4-session-Message: 09:45:52.579: SSH authentication agent is already running
+gpg-agent[2613]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:2514): xfce4-session-WARNING **: 09:45:52.584: gpg-agent returned no PID in the variables
+
+(x-session-manager:2514): xfce4-session-WARNING **: 09:45:52.585: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-33-138:11, Does it exist? Permissions issue?
+
+(xfwm4:2617): GLib-CRITICAL **: 09:45:53.126: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfwm4:2617): xfwm4-WARNING **: 09:45:53.178: The property '/general/double_click_distance' of type int is not supported
+
+(xfsettingsd:2640): GLib-CRITICAL **: 09:45:53.275: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:2640): GLib-GObject-CRITICAL **: 09:45:53.278: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:2640): GLib-GObject-CRITICAL **: 09:45:53.303: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfwm4:2617): xfwm4-WARNING **: 09:45:53.338: Error opening /dev/dri/card0: No such file or directory
+
+** (light-locker:2629): ERROR **: 09:45:53.507: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:2628): GLib-CRITICAL **: 09:45:53.519: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:2628): polkit-gnome-1-WARNING **: 09:45:53.567: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfwm4:2617): xfwm4-WARNING **: 09:45:54.375: Another compositing manager is running on screen 0
+
+(nm-applet:2627): Gtk-WARNING **: 09:45:54.683: Can't set a parent on widget which has a parent
+
+(nm-applet:2627): Gdk-CRITICAL **: 09:46:15.941: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+[ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+10:27:47:0485 Gs  plugin appstream took 2.3 seconds to do setup
+10:27:47:0491 Gs  enabled plugins: packagekit, ubuntuone, systemd-updates, packagekit-refine-repos, packagekit-upgrade, desktop-categories, os-release, packagekit-offline, packagekit-refresh, packagekit-url-to-app, packagekit-proxy, packagekit-local, fwupd, appstream, generic-updates, hardcoded-popular, hardcoded-blacklist, odrs, desktop-menu-path, steam, modalias, rewrite-resource, packagekit-refine, hardcoded-featured, packagekit-history, provenance, snap, provenance-license, icons, key-colors, key-colors-metadata
+10:27:47:0491 Gs  disabled plugins: shell-extensions, dpkg, repos, dummy, epiphany
+10:28:00:0533 GsPluginPackageKit Failed to find one package for byobu.desktop, /usr/share/applications/byobu.desktop, [0]
+10:28:00:0958 GsPluginSnap Failed to load snap icon: local snap has no icon
+Gtk-Message: 10:29:04.919: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 10:29:48.743: GtkDialog mapped without a transient parent. This is discouraged.
+11:17:33:0151 As  failed to rescan: Failed to parse /usr/share/applications/software-properties-drivers.desktop file: cannot process file of type application/x-desktop
+11:17:33:0155 As  failed to rescan: Failed to parse /usr/share/applications/software-properties-gtk.desktop file: cannot process file of type application/x-desktop
+11:17:33:0159 As  failed to rescan: Failed to parse /usr/share/applications/software-properties-livepatch.desktop file: cannot process file of type application/x-desktop
+11:17:33:0164 As  failed to rescan: No valid root node specified
+11:17:38:0513 Gs  Only 0 apps for recent list, hiding
+11:17:39:0767 GsPluginPackageKit Failed to find one package for byobu.desktop, /usr/share/applications/byobu.desktop, [0]
+
+(nm-applet:2627): Gtk-CRITICAL **: 11:19:41.746: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2627): Gtk-CRITICAL **: 11:19:41.746: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2627): Gtk-WARNING **: 11:19:41.748: Can't set a parent on widget which has a parent
+[Parent 5151, Gecko_IOThread] WARNING: pipe error (80): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 5151, Gecko_IOThread] WARNING: pipe error (138): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 5151, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+[Parent 15156, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 15156, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+(xfdesktop:2625): libxfce4ui-WARNING **: 11:26:53.443: ICE I/O Error
+
+(xfdesktop:2625): libxfce4ui-WARNING **: 11:26:53.443: Disconnected from session manager.
+
+(xfce4-panel:2621): libxfce4ui-WARNING **: 11:26:53.444: ICE I/O Error
+
+(xfce4-panel:2621): libxfce4ui-WARNING **: 11:26:53.444: Disconnected from session manager.
+
+(xfwm4:2617): libxfce4ui-WARNING **: 11:26:53.462: ICE I/O Error
+
+(xfwm4:2617): libxfce4ui-WARNING **: 11:26:53.462: Disconnected from session manager.
+xfwm4: Fatal IO error 25 (Inappropriate ioctl for device) on X server :11.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+Xsession: X session started for ubuntu at Sat May 23 11:28:13 UTC 2020
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+xfce4-session-Message: 11:28:16.311: SSH authentication agent is already running
+gpg-agent[1907]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:1808): xfce4-session-WARNING **: 11:28:16.318: gpg-agent returned no PID in the variables
+
+(x-session-manager:1808): xfce4-session-WARNING **: 11:28:16.320: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-33-138:10, Does it exist? Permissions issue?
+
+** (light-locker:1923): ERROR **: 11:28:16.959: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:1922): GLib-CRITICAL **: 11:28:16.982: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1922): polkit-gnome-1-WARNING **: 11:28:16.982: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:1926): xfsettingsd-WARNING **: 11:28:17.377: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(nm-applet:1921): Gtk-WARNING **: 11:28:17.589: Can't set a parent on widget which has a parent
+
+(xfwm4:1911): xfwm4-WARNING **: 11:28:17.641: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:1921): Gdk-CRITICAL **: 11:28:17.868: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+Gtk-Message: 11:29:04.055: GtkDialog mapped without a transient parent. This is discouraged.
+[ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+[Parent 2423, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2423, Gecko_IOThread] WARNING: pipe error (108): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+(mousepad:5846): Gtk-WARNING **: 11:43:44.282: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:5846): Gtk-WARNING **: 11:43:44.282: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:5846): Gtk-WARNING **: 11:43:44.282: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:5846): Gtk-WARNING **: 11:43:44.283: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:5846): Gtk-WARNING **: 11:43:44.283: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(xfwm4:1911): libxfce4ui-WARNING **: 11:47:03.791: ICE I/O Error
+
+(xfwm4:1911): libxfce4ui-WARNING **: 11:47:03.791: Disconnected from session manager.
+
+(xfsettingsd:1926): libxfce4ui-WARNING **: 11:47:03.791: ICE I/O Error
+
+(xfsettingsd:1926): libxfce4ui-WARNING **: 11:47:03.791: Disconnected from session manager.
+
+(xfce4-panel:1915): libxfce4ui-WARNING **: 11:47:03.792: ICE I/O Error
+
+(xfce4-panel:1915): libxfce4ui-WARNING **: 11:47:03.794: Disconnected from session manager.
+xfce4-panel: Fatal IO error 25 (Inappropriate ioctl for device) on X server :10.0.
+
+(xfdesktop:1919): libxfce4ui-WARNING **: 11:47:03.792: ICE I/O Error
+
+(xfdesktop:1919): libxfce4ui-WARNING **: 11:47:03.843: Disconnected from session manager.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :10.0.
+Xsession: X session started for ubuntu at Wed Jul  8 11:56:17 UTC 2020
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:11.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:11.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+xfce4-session-Message: 11:56:19.847: SSH authentication agent is already running
+gpg-agent[28762]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:28664): xfce4-session-WARNING **: 11:56:19.853: gpg-agent returned no PID in the variables
+
+(x-session-manager:28664): xfce4-session-WARNING **: 11:56:19.855: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-44-12:11, Does it exist? Permissions issue?
+
+(xfsettingsd:28778): xfsettingsd-WARNING **: 11:56:20.487: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:28766): xfwm4-WARNING **: 11:56:20.525: Error opening /dev/dri/card0: No such file or directory
+
+** (light-locker:28779): ERROR **: 11:56:20.535: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:28777): GLib-CRITICAL **: 11:56:20.568: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:28777): polkit-gnome-1-WARNING **: 11:56:20.569: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:28776): Gtk-WARNING **: 11:56:21.152: Can't set a parent on widget which has a parent
+
+(nm-applet:28776): Gdk-CRITICAL **: 11:56:21.386: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+[ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+
+(mousepad:2441): Gtk-WARNING **: 12:15:38.497: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2441): Gtk-WARNING **: 12:15:38.497: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2441): Gtk-WARNING **: 12:15:38.498: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2441): Gtk-WARNING **: 12:15:38.498: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2441): Gtk-WARNING **: 12:15:38.498: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+[Parent 29214, Gecko_IOThread] WARNING: pipe error (116): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 29214, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+xfce4-session-Message: 12:18:09.811: Got disconnected from D-Bus.  Unless this happened during session shutdown, this is probably a bad thing.
+PolicyKit daemon disconnected from the bus.
+We are no longer a registered authentication agent.
+
+(xfwm4:28766): libxfce4ui-WARNING **: 12:18:09.972: ICE I/O Error
+
+(xfwm4:28766): libxfce4ui-WARNING **: 12:18:09.972: Disconnected from session manager.
+xfwm4: Fatal IO error 25 (Inappropriate ioctl for device) on X server :11.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+Xsession: X session started for ubuntu at Thu Sep 24 14:39:30 UTC 2020
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:11.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:11.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+xfce4-session-Message: 14:39:33.549: SSH authentication agent is already running
+gpg-agent[3057]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:2958): xfce4-session-WARNING **: 14:39:33.554: gpg-agent returned no PID in the variables
+
+(x-session-manager:2958): xfce4-session-WARNING **: 14:39:33.556: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-31-216:11, Does it exist? Permissions issue?
+
+(xfsettingsd:3073): xfsettingsd-WARNING **: 14:39:34.102: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+** (light-locker:3074): ERROR **: 14:39:34.264: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:3072): GLib-CRITICAL **: 14:39:34.334: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:3072): polkit-gnome-1-WARNING **: 14:39:34.344: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfwm4:3061): xfwm4-WARNING **: 14:39:34.621: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:3071): Gtk-WARNING **: 14:39:34.750: Can't set a parent on widget which has a parent
+
+(nm-applet:3071): Gdk-CRITICAL **: 14:39:34.940: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+[ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+
+(mousepad:12856): Gtk-WARNING **: 14:54:12.302: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:12856): Gtk-WARNING **: 14:54:12.302: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:12856): Gtk-WARNING **: 14:54:12.302: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:12856): Gtk-WARNING **: 14:54:12.302: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:12856): Gtk-WARNING **: 14:54:12.303: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:14289): Gtk-WARNING **: 14:56:26.912: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:14289): Gtk-WARNING **: 14:56:26.912: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:14289): Gtk-WARNING **: 14:56:26.912: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:14289): Gtk-WARNING **: 14:56:26.912: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:14289): Gtk-WARNING **: 14:56:26.912: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+[Parent 9533, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 9533, Gecko_IOThread] WARNING: pipe error (106): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+(mousepad:24587): Gtk-WARNING **: 15:16:37.373: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:24587): Gtk-WARNING **: 15:16:37.373: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:24587): Gtk-WARNING **: 15:16:37.373: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:24587): Gtk-WARNING **: 15:16:37.374: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:24587): Gtk-WARNING **: 15:16:37.374: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:25390): Gtk-WARNING **: 15:19:54.962: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:25390): Gtk-WARNING **: 15:19:54.962: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:25390): Gtk-WARNING **: 15:19:54.962: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:25390): Gtk-WARNING **: 15:19:54.962: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:25390): Gtk-WARNING **: 15:19:54.962: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:24926): Gtk-WARNING **: 15:27:25.012: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:24926): Gtk-WARNING **: 15:27:25.012: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:24926): Gtk-WARNING **: 15:27:25.012: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:24926): Gtk-WARNING **: 15:27:25.012: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:24926): Gtk-WARNING **: 15:27:25.012: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+Thunar: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+
+(xfsettingsd:3073): libxfce4ui-WARNING **: 15:30:44.306: ICE I/O Error
+
+(xfsettingsd:3073): libxfce4ui-WARNING **: 15:30:44.306: Disconnected from session manager.
+
+(xfce4-panel:3065): libxfce4ui-WARNING **: 15:30:44.307: ICE I/O Error
+
+(xfce4-panel:3065): libxfce4ui-WARNING **: 15:30:44.307: Disconnected from session manager.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+Xsession: X session started for ubuntu at Tue Oct  6 08:34:47 UTC 2020
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:11.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:11.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+xfce4-session-Message: 08:35:02.123: SSH authentication agent is already running
+gpg-agent[5321]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:5154): xfce4-session-WARNING **: 08:35:02.129: gpg-agent returned no PID in the variables
+
+(x-session-manager:5154): xfce4-session-WARNING **: 08:35:02.131: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-24-189:11, Does it exist? Permissions issue?
+
+(xfwm4:5325): xfwm4-WARNING **: 08:35:03.883: Error opening /dev/dri/card0: No such file or directory
+
+** (light-locker:5340): ERROR **: 08:35:04.004: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:5339): GLib-CRITICAL **: 08:35:04.015: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:5339): polkit-gnome-1-WARNING **: 08:35:04.021: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:5336): Gtk-WARNING **: 08:35:06.208: Can't set a parent on widget which has a parent
+
+(nm-applet:5336): Gdk-CRITICAL **: 08:35:06.591: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+
+(xfce4-panel:5329): libxfce4ui-WARNING **: 08:50:30.717: ICE I/O Error
+
+(xfce4-panel:5329): libxfce4ui-WARNING **: 08:50:30.717: Disconnected from session manager.
+
+(xfwm4:5325): libxfce4ui-WARNING **: 08:50:30.717: ICE I/O Error
+
+(xfwm4:5325): libxfce4ui-WARNING **: 08:50:30.717: Disconnected from session manager.
+
+(xfsettingsd:5335): libxfce4ui-WARNING **: 08:50:30.718: ICE I/O Error
+
+(xfsettingsd:5335): libxfce4ui-WARNING **: 08:50:30.718: Disconnected from session manager.
+
+(xfdesktop:5333): libxfce4ui-WARNING **: 08:50:30.719: ICE I/O Error
+
+(xfdesktop:5333): libxfce4ui-WARNING **: 08:50:30.719: Disconnected from session manager.
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+Xsession: X session started for ubuntu at Thu Feb 18 14:14:56 UTC 2021
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:11.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/opt/puppetlabs/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:11.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+dbus-update-activation-environment: setting MANPATH=:/opt/puppetlabs/puppet/share/man
+xfce4-session-Message: 14:15:02.336: SSH authentication agent is already running
+gpg-agent[2449]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:2313): xfce4-session-WARNING **: 14:15:02.341: gpg-agent returned no PID in the variables
+
+(x-session-manager:2313): xfce4-session-WARNING **: 14:15:02.343: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-8-247:11, Does it exist? Permissions issue?
+
+(xfsettingsd:2466): xfsettingsd-WARNING **: 14:15:03.005: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+** (light-locker:2468): ERROR **: 14:15:03.099: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:2467): GLib-CRITICAL **: 14:15:03.106: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:2467): polkit-gnome-1-WARNING **: 14:15:03.107: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfwm4:2453): xfwm4-WARNING **: 14:15:03.136: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:2463): Gtk-WARNING **: 14:15:03.962: Can't set a parent on widget which has a parent
+
+(nm-applet:2463): Gdk-CRITICAL **: 14:15:04.309: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(gedit:2708): Gtk-WARNING **: 14:17:10.609: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(xfwm4:2453): libxfce4ui-WARNING **: 14:35:48.035: ICE I/O Error
+
+(xfwm4:2453): libxfce4ui-WARNING **: 14:35:48.036: Disconnected from session manager.
+xfwm4: Fatal IO error 25 (Inappropriate ioctl for device) on X server :11.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+Xsession: X session started for ubuntu at Fri Feb 19 08:23:56 UTC 2021
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:11.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/opt/puppetlabs/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:11.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+dbus-update-activation-environment: setting MANPATH=:/opt/puppetlabs/puppet/share/man
+xfce4-session-Message: 08:23:56.997: SSH authentication agent is already running
+gpg-agent[27963]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:27856): xfce4-session-WARNING **: 08:23:57.002: gpg-agent returned no PID in the variables
+
+(x-session-manager:27856): xfce4-session-WARNING **: 08:23:57.005: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-8-247:11, Does it exist? Permissions issue?
+
+** (light-locker:27982): ERROR **: 08:23:57.397: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:27979): GLib-CRITICAL **: 08:23:57.432: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:27979): polkit-gnome-1-WARNING **: 08:23:57.432: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:27978): xfsettingsd-WARNING **: 08:23:57.445: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:27967): xfwm4-WARNING **: 08:23:57.547: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:27977): Gtk-WARNING **: 08:23:57.792: Can't set a parent on widget which has a parent
+
+(nm-applet:27977): Gdk-CRITICAL **: 08:23:57.984: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(gedit:28570): GVFS-RemoteVolumeMonitor-WARNING **: 08:35:10.516: Owner of volume monitor org.gtk.vfs.GoaVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(gedit:28570): GVFS-RemoteVolumeMonitor-WARNING **: 08:35:10.516: Owner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(xfsettingsd:27978): GLib-GObject-WARNING **: 08:35:10.517: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+
+(xfdesktop:27975): GVFS-RemoteVolumeMonitor-WARNING **: 08:35:10.519: Owner of volume monitor org.gtk.vfs.GoaVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(xfdesktop:27975): GVFS-RemoteVolumeMonitor-WARNING **: 08:35:10.519: Owner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :11.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+Xsession: X session started for ubuntu at Fri Feb 19 15:06:32 UTC 2021
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:11.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/opt/puppetlabs/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:11.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+dbus-update-activation-environment: setting MANPATH=:/opt/puppetlabs/puppet/share/man
+xfce4-session-Message: 15:06:33.391: SSH authentication agent is already running
+gpg-agent[2632]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:2525): xfce4-session-WARNING **: 15:06:33.396: gpg-agent returned no PID in the variables
+
+(x-session-manager:2525): xfce4-session-WARNING **: 15:06:33.398: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-ip-172-31-8-247:11, Does it exist? Permissions issue?
+
+** (light-locker:2648): ERROR **: 15:06:33.851: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(xfsettingsd:2649): xfsettingsd-WARNING **: 15:06:33.918: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(polkit-gnome-authentication-agent-1:2647): GLib-CRITICAL **: 15:06:33.945: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:2647): polkit-gnome-1-WARNING **: 15:06:33.947: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfwm4:2636): xfwm4-WARNING **: 15:06:34.054: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:2646): Gtk-WARNING **: 15:06:34.237: Can't set a parent on widget which has a parent
+
+(nm-applet:2646): Gdk-CRITICAL **: 15:06:34.429: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+Gtk-Message: 15:09:02.960: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: 15:10:23.367: GtkDialog mapped without a transient parent. This is discouraged.
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/ubuntu/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.0.20200318-1040.xml
+org.eclipse.m2e.logback.configuration: Initializing logback
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+xfce4-session-Message: 15:13:09.834: Got disconnected from D-Bus.  Unless this happened during session shutdown, this is probably a bad thing.
+
+(xfdesktop:2644): libxfce4ui-WARNING **: 15:13:09.880: ICE I/O Error
+
+(xfdesktop:2644): libxfce4ui-WARNING **: 15:13:09.880: Disconnected from session manager.
+
+(xfdesktop:2644): GVFS-RemoteVolumeMonitor-WARNING **: 15:13:09.880: Owner of volume monitor org.gtk.vfs.MTPVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+xfdesktop: Fatal IO error 25 (Inappropriate ioctl for device) on X server :11.0.
+Xsession: X session started for ubuntu at Mon Aug 28 10:21:08 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/opt/puppetlabs/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+dbus-update-activation-environment: setting MANPATH=:/opt/puppetlabs/puppet/share/man
+xfce4-session-Message: 10:21:17.744: SSH authentication agent is already running
+gpg-agent[7115]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:6911): xfce4-session-WARNING **: 10:21:17.750: gpg-agent returned no PID in the variables
+
+(x-session-manager:6911): xfce4-session-WARNING **: 10:21:17.753: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-kmaster:10, Does it exist? Permissions issue?
+
+(xfsettingsd:7163): xfsettingsd-WARNING **: 10:21:18.589: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+** (light-locker:7131): ERROR **: 10:21:18.814: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:7130): GLib-CRITICAL **: 10:21:18.839: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:7130): polkit-gnome-1-WARNING **: 10:21:18.841: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfwm4:7119): xfwm4-WARNING **: 10:21:18.995: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:7129): Gtk-WARNING **: 10:21:19.241: Can't set a parent on widget which has a parent
+
+(nm-applet:7129): Gdk-CRITICAL **: 10:21:19.538: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(xfsettingsd:7163): libxfce4ui-WARNING **: 10:39:07.116: ICE I/O Error
+
+(xfsettingsd:7163): libxfce4ui-WARNING **: 10:39:07.116: Disconnected from session manager.
+
+(xfce4-panel:7123): libxfce4ui-WARNING **: 10:39:07.116: ICE I/O Error
+
+(xfce4-panel:7123): libxfce4ui-WARNING **: 10:39:07.116: Disconnected from session manager.
+
+(xfwm4:7119): libxfce4ui-WARNING **: 10:39:07.120: ICE I/O Error
+
+(xfwm4:7119): libxfce4ui-WARNING **: 10:39:07.120: Disconnected from session manager.
+
+(xfdesktop:7127): libxfce4ui-WARNING **: 10:39:07.120: ICE I/O Error
+
+(xfdesktop:7127): libxfce4ui-WARNING **: 10:39:07.120: Disconnected from session manager.
+xfwm4: Fatal IO error 25 (Inappropriate ioctl for device) on X server :10.0.
+xfdesktop: Fatal IO error 25 (Inappropriate ioctl for device) on X server :10.0.
+Xsession: X session started for ubuntu at Mon Aug 28 12:44:23 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/opt/puppetlabs/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+dbus-update-activation-environment: setting MANPATH=:/opt/puppetlabs/puppet/share/man
+xfce4-session-Message: 12:44:29.576: SSH authentication agent is already running
+gpg-agent[12606]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:12439): xfce4-session-WARNING **: 12:44:29.582: gpg-agent returned no PID in the variables
+
+(x-session-manager:12439): xfce4-session-WARNING **: 12:44:29.585: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-kmaster:10, Does it exist? Permissions issue?
+
+(xfsettingsd:12636): xfsettingsd-WARNING **: 12:44:30.683: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfce4-panel:12614): Wnck-CRITICAL **: 12:44:30.943: wnck_workspace_is_virtual: assertion 'WNCK_IS_WORKSPACE (space)' failed
+
+(xfwm4:12610): xfwm4-WARNING **: 12:44:31.208: Error opening /dev/dri/card0: No such file or directory
+
+** (light-locker:12622): ERROR **: 12:44:31.607: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:12621): GLib-CRITICAL **: 12:44:31.624: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:12621): polkit-gnome-1-WARNING **: 12:44:31.626: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:12620): Gtk-WARNING **: 12:44:32.514: Can't set a parent on widget which has a parent
+
+(nm-applet:12620): Gdk-CRITICAL **: 12:44:32.959: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+PolicyKit daemon disconnected from the bus.
+We are no longer a registered authentication agent.
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+Xsession: X session started for ubuntu at Sat Sep  2 08:42:39 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/opt/puppetlabs/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+dbus-update-activation-environment: setting MANPATH=:/opt/puppetlabs/puppet/share/man
+xfce4-session-Message: 08:42:45.507: SSH authentication agent is already running
+gpg-agent[14299]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:14126): xfce4-session-WARNING **: 08:42:45.512: gpg-agent returned no PID in the variables
+
+(x-session-manager:14126): xfce4-session-WARNING **: 08:42:45.515: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-kmaster:10, Does it exist? Permissions issue?
+
+(xfsettingsd:14316): xfsettingsd-WARNING **: 08:42:46.292: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:14303): xfwm4-WARNING **: 08:42:46.554: Error opening /dev/dri/card0: No such file or directory
+
+** (light-locker:14315): ERROR **: 08:42:46.912: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:14314): GLib-CRITICAL **: 08:42:46.930: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:14314): polkit-gnome-1-WARNING **: 08:42:46.931: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:14313): Gtk-WARNING **: 08:42:47.299: Can't set a parent on widget which has a parent
+
+(nm-applet:14313): Gdk-CRITICAL **: 08:42:47.549: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(xfsettingsd:14316): GLib-GObject-WARNING **: 09:10:05.489: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+xfwm4: Fatal IO error 2 (No such file or directory) on X server :10.0.
+Xsession: X session started for ubuntu at Sat Sep  2 09:13:43 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/opt/puppetlabs/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+dbus-update-activation-environment: setting MANPATH=:/opt/puppetlabs/puppet/share/man
+xfce4-session-Message: 09:13:49.987: SSH authentication agent is already running
+gpg-agent[1943]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:1688): xfce4-session-WARNING **: 09:13:50.014: gpg-agent returned no PID in the variables
+
+(x-session-manager:1688): xfce4-session-WARNING **: 09:13:50.016: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-kmaster:10, Does it exist? Permissions issue?
+
+** (light-locker:1959): ERROR **: 09:13:51.427: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:1958): GLib-CRITICAL **: 09:13:51.472: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1958): polkit-gnome-1-WARNING **: 09:13:51.473: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:1960): xfsettingsd-WARNING **: 09:13:51.936: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(nm-applet:1957): Gtk-WARNING **: 09:13:52.162: Can't set a parent on widget which has a parent
+
+(xfwm4:1947): xfwm4-WARNING **: 09:13:52.459: Error opening /dev/dri/card0: No such file or directory
+
+(xfwm4:1947): Gdk-WARNING **: 09:13:52.507: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkproperty-x11.c:325 invalid X atom: 327
+
+(nm-applet:1957): Gdk-CRITICAL **: 09:13:52.894: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(nm-applet:1957): Gtk-CRITICAL **: 09:13:57.406: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1957): Gtk-CRITICAL **: 09:13:57.406: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1957): Gtk-WARNING **: 09:13:57.408: Can't set a parent on widget which has a parent
+
+(nm-applet:1957): Gtk-CRITICAL **: 09:15:25.684: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1957): Gtk-CRITICAL **: 09:15:25.684: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1957): Gtk-WARNING **: 09:15:25.686: Can't set a parent on widget which has a parent
+
+(nm-applet:1957): Gtk-CRITICAL **: 09:15:26.861: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1957): Gtk-CRITICAL **: 09:15:26.861: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1957): Gtk-WARNING **: 09:15:26.863: Can't set a parent on widget which has a parent
+
+(nm-applet:1957): Gtk-CRITICAL **: 09:15:27.125: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1957): Gtk-CRITICAL **: 09:15:27.125: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1957): Gtk-WARNING **: 09:15:27.127: Can't set a parent on widget which has a parent
+
+(nm-applet:1957): Gtk-CRITICAL **: 09:15:27.133: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1957): Gtk-CRITICAL **: 09:15:27.133: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1957): Gtk-WARNING **: 09:15:27.135: Can't set a parent on widget which has a parent
+
+(gedit:18932): Gtk-WARNING **: 09:25:17.704: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(xfwm4:1947): libxfce4ui-WARNING **: 10:18:04.926: ICE I/O Error
+
+(xfwm4:1947): libxfce4ui-WARNING **: 10:18:04.926: Disconnected from session manager.
+
+(xfdesktop:1955): libxfce4ui-WARNING **: 10:18:04.926: ICE I/O Error
+
+(xfdesktop:1955): libxfce4ui-WARNING **: 10:18:04.988: Disconnected from session manager.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+xfwm4: Fatal IO error 25 (Inappropriate ioctl for device) on X server :10.0.
+Xsession: X session started for ubuntu at Sat Sep  2 13:10:03 UTC 2023
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:ubuntu being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=ubuntu
+dbus-update-activation-environment: setting J2SDKDIR=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+dbus-update-activation-environment: setting HOME=/home/ubuntu
+dbus-update-activation-environment: setting MAVEN_HOME=/opt/maven
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=ubuntu
+dbus-update-activation-environment: setting PATH=/opt/maven/bin:/opt/maven/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/opt/puppetlabs/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+dbus-update-activation-environment: setting DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/var/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/ubuntu
+dbus-update-activation-environment: setting JAVA_HOME=/usr/lib/jvm/java-8-oracle
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting M2_HOME=/opt/maven
+dbus-update-activation-environment: setting MANPATH=:/opt/puppetlabs/puppet/share/man
+xfce4-session-Message: 13:10:11.671: SSH authentication agent is already running
+gpg-agent[2588]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(x-session-manager:1825): xfce4-session-WARNING **: 13:10:11.725: gpg-agent returned no PID in the variables
+
+(x-session-manager:1825): xfce4-session-WARNING **: 13:10:11.727: xfsm_manager_load_session: Something wrong with /home/ubuntu/.cache/sessions/xfce4-session-kmaster:10, Does it exist? Permissions issue?
+
+(xfsettingsd:2674): xfsettingsd-WARNING **: 13:10:13.394: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+** (light-locker:2675): ERROR **: 13:10:13.486: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:2669): GLib-CRITICAL **: 13:10:13.523: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:2669): polkit-gnome-1-WARNING **: 13:10:13.530: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfwm4:2599): xfwm4-WARNING **: 13:10:14.098: Error opening /dev/dri/card0: No such file or directory
+
+(nm-applet:2645): Gtk-WARNING **: 13:10:14.290: Can't set a parent on widget which has a parent
+
+(nm-applet:2645): Gdk-CRITICAL **: 13:10:14.784: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(nm-applet:2645): Gtk-CRITICAL **: 13:10:42.069: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2645): Gtk-CRITICAL **: 13:10:42.069: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2645): Gtk-WARNING **: 13:10:42.071: Can't set a parent on widget which has a parent
+
+(nm-applet:2645): Gtk-CRITICAL **: 13:10:44.495: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2645): Gtk-CRITICAL **: 13:10:44.495: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2645): Gtk-WARNING **: 13:10:44.497: Can't set a parent on widget which has a parent
+
+(nm-applet:2645): Gtk-CRITICAL **: 13:10:44.529: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2645): Gtk-CRITICAL **: 13:10:44.529: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2645): Gtk-WARNING **: 13:10:44.531: Can't set a parent on widget which has a parent
+
+(nm-applet:2645): Gtk-CRITICAL **: 13:10:44.938: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2645): Gtk-CRITICAL **: 13:10:44.938: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2645): Gtk-WARNING **: 13:10:44.939: Can't set a parent on widget which has a parent
